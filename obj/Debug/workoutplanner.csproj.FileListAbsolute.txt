@@ -18,3 +18,25 @@
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner\workoutplanner\obj\Debug\workoutplanner.csprojResolveAssemblyReference.cache
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner\workoutplanner\obj\Debug\workoutplanner.dll
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner\workoutplanner\obj\Debug\workoutplanner.pdb
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\csc.exe
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\vbc.exe
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\workoutplanner.dll.config
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\workoutplanner.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\workoutplanner.pdb
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\EntityFramework.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\EntityFramework.xml
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\obj\Debug\workoutplanner.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\obj\Debug\workoutplanner.pdb
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\obj\Debug\workoutplanner.csprojResolveAssemblyReference.cache

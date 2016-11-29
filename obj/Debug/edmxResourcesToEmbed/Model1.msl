@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="workoutsModelStoreContainer" CdmEntityContainer="workoutsEntities">
+    <EntitySetMapping Name="backs">
+      <EntityTypeMapping TypeName="workoutsModel.back">
+        <MappingFragment StoreEntitySet="back">
+          <ScalarProperty Name="workout_num" ColumnName="workout_num" />
+          <ScalarProperty Name="workout_name" ColumnName="workout_name" />
+          <ScalarProperty Name="sets_num" ColumnName="sets_num" />
+          <ScalarProperty Name="intensity_num" ColumnName="intensity_num" />
+          <ScalarProperty Name="addeddate" ColumnName="addeddate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="workoutsModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="user_num" ColumnName="user_num" />
+          <ScalarProperty Name="birth_date" ColumnName="birth_date" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="starting_date" ColumnName="starting_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
