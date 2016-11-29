@@ -39,4 +39,3 @@
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\obj\Debug\workoutplanner.dll
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\obj\Debug\workoutplanner.pdb
-\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\obj\Debug\workoutplanner.csprojResolveAssemblyReference.cache

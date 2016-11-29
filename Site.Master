@@ -31,6 +31,9 @@
               <li><a href="#">Biceps</a></li> 
               <li><a href="#">Triceps</a></li> 
               <li><a href="#">Core</a></li>
+              <li><a href="logout.aspx">Logout</a></li>
+              <li><a href="login.aspx">Login</a></li>
+              <li><a href="register.aspx">Register</a></li>
             </ul>
           </div>
         </nav>
