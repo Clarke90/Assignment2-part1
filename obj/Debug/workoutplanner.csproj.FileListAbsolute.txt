@@ -60,4 +60,7 @@
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\Microsoft.Owin.Security.Cookies.xml
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\Microsoft.Owin.Security.OAuth.xml
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\Newtonsoft.Json.xml
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\EntityFramework.SqlServerCompact.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\System.Data.SqlServerCe.dll
+\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\EntityFramework.SqlServerCompact.xml
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\obj\Debug\workoutplanner.csprojResolveAssemblyReference.cache

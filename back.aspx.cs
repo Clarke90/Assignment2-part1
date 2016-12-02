@@ -24,12 +24,12 @@ namespace workoutplanner
 
             var back = from b in conn.backs
                        select b;
-
             // display the query result
-
             grdback.DataSource = back.ToList();
             grdback.DataBind();
 
+
         }
+          return back;
     }
 }

@@ -2,22 +2,29 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <h1>Login</h1>
+     
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                 <h1>Login</h1>
+                <p>Already have an account?</p>
+            </div> 
+                    <div class="form-group">
+                        <asp:Label ID="Label1" runat="server" CssClass="col-sm-offset-3"
+                          />
+                    </div>
+                    <div class="form-group">
+                        <label for="txtUsername" class="control-label col-sm-3">Username:</label>
+                        <asp:TextBox ID="txtUsername" runat="server" required />
+                    </div>
 
-    <div class="form-group">
-        <asp:Label ID="lblMessage" runat="server" CssClass="alert alert-info col-sm-offset-3"
-             Text="Please enter your credentials" />
+                    <div class="form-group">
+                        <label for="txtPassword" class="control-label col-sm-3">Password:</label>
+                        <asp:TextBox ID="txtPassword" runat="server" required TextMode="Password" />
+                    </div>
+
+                    <asp:Button ID="btnLogin" runat="server" CssClass="btn btn-success col-sm-offset-3" Text="Login" OnClick="btnLogin_Click"/>
+                </div><!-- ./ content --> 
     </div>
 
-    <div class="form-group">
-        <label for="txtUsername" class="control-label col-sm-3">Username:</label>
-        <asp:TextBox ID="txtUsername" runat="server" required />
-    </div>
-
-    <div class="form-group">
-        <label for="txtPassword" class="control-label col-sm-3">Password:</label>
-        <asp:TextBox ID="txtPassword" runat="server" required TextMode="Password" />
-    </div>
-
-    <asp:Button ID="btnLogin" runat="server" CssClass="btn btn-success col-sm-offset-3" Text="Login" OnClick="btnLogin_Click"/>
 </asp:Content>

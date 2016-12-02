@@ -27,5 +27,6 @@ namespace workoutplanner
     
         public DbSet<back> backs { get; set; }
         public DbSet<user> users { get; set; }
+        public DbSet<chest> chests { get; set; }
     }
 }

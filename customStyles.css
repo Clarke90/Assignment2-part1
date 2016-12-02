@@ -1,5 +1,9 @@
 ﻿body {
-
+background-image: url("images/weights.jpg");
+position:bottom;
+background-size:cover; 
+min-height:400px;
+margin-top:-2%;
 }
 .jumbotron {
 background-image: url("images/weights.jpg");
@@ -9,12 +13,16 @@ min-height:400px;
 margin-top:-2%;
 }
 .cta {
-background-color:cornflowerblue;
+background-color:#222;
 padding: 2% 0 2% 0; 
+margin-top:-2.3%;
+border-top:4px solid red;
 }
 #intro {
 width:70%;
 margin:0 auto;
+font-size:23px;
+margin-top:5%;
 }
 .jumbotron .h1, .jumbotron h1 {
 color:#fff;
@@ -28,4 +36,7 @@ color:#fff;
 }
 .row {
 margin:5% 0 5% 0;
+}
+.modal-content {
+padding:3%;
 }
