@@ -1,12 +1,11 @@
 ﻿body {
-background-image: url("images/weights.jpg");
+background-color: #fff; 
 position:bottom;
 background-size:cover; 
 min-height:400px;
 margin-top:-2%;
 }
 .jumbotron {
-background-image: url("images/weights.jpg");
 position:bottom;
 background-size:cover; 
 min-height:400px;

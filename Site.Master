@@ -26,7 +26,7 @@
                 <asp:PlaceHolder ID="plhPrivate" runat="server" Visible="false">
                       <li class="active"><a href="#">Home</a></li>
                       <li><a href="back.aspx">Back</a></li>
-                      <li><a href="#">Chest</a></li> 
+                      <li><a href="chest.aspx">Chest</a></li> 
                       <li><a href="#">Legs</a></li> 
                       <li><a href="#">Biceps</a></li> 
                       <li><a href="#">Triceps</a></li> 

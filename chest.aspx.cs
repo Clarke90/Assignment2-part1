@@ -15,19 +15,18 @@ namespace workoutplanner
         protected void Page_Load(object sender, EventArgs e)
         {
             // get the chest wokrouts and display in grid
-            getchest();
+            getChest();
         }
 
-        protected void getchest()
+        protected void getChest()
         {
-            //connect to db
+            //connect to the chest db 
             var conn = new workoutsEntities();
-
-            var chest = from c in conn.chests
-                        select c;
-
-            // display the result of the query
-            grdChest.DataSource = chest.ToList();
+            //linq query 
+            var Chests = from c in conn.backs
+                         select c;
+            //display the result in the gridview
+            grdChest.DataSource = Chests.ToList();
             grdChest.DataBind();
 
         }

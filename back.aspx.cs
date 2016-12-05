@@ -22,14 +22,15 @@ namespace workoutplanner
             //connect to db
             var conn = new workoutsEntities();
 
-            var back = from b in conn.backs
+            //linq
+            var Back = from b in conn.backs
                        select b;
-            // display the query result
-            grdback.DataSource = back.ToList();
-            grdback.DataBind();
-
+            
+            grdback.DataSource = Back.ToList();
+              grdback.DataBind();
+       
 
         }
-          return back;
+        
     }
 }

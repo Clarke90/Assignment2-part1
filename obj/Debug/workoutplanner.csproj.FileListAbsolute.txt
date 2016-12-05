@@ -63,4 +63,3 @@
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\EntityFramework.SqlServerCompact.dll
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\System.Data.SqlServerCe.dll
 \\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\bin\EntityFramework.SqlServerCompact.xml
-\\Mac\Home\Desktop\WorkoutPlanner\workoutplanner 3\workoutplanner\obj\Debug\workoutplanner.csprojResolveAssemblyReference.cache
