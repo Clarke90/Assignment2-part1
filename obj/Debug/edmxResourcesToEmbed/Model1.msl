@@ -23,5 +23,16 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="chests">
+      <EntityTypeMapping TypeName="workoutsModel.chest">
+        <MappingFragment StoreEntitySet="chest">
+          <ScalarProperty Name="link_url" ColumnName="link_url" />
+          <ScalarProperty Name="intensity_num" ColumnName="intensity_num" />
+          <ScalarProperty Name="sets_num" ColumnName="sets_num" />
+          <ScalarProperty Name="workout_name" ColumnName="workout_name" />
+          <ScalarProperty Name="workout_num" ColumnName="workout_num" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

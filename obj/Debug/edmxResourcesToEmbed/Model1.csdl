@@ -23,5 +23,16 @@
   <EntityContainer Name="workoutsEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="backs" EntityType="Self.back" />
     <EntitySet Name="users" EntityType="Self.user" />
+    <EntitySet Name="chests" EntityType="workoutsModel.chest" />
   </EntityContainer>
+  <EntityType Name="chest">
+    <Key>
+      <PropertyRef Name="workout_num" />
+    </Key>
+    <Property Name="workout_num" Type="Int32" Nullable="false" />
+    <Property Name="workout_name" Type="String" Nullable="false" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="sets_num" Type="String" Nullable="false" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="intensity_num" Type="String" Nullable="false" MaxLength="16" FixedLength="true" Unicode="false" />
+    <Property Name="link_url" Type="String" Nullable="false" MaxLength="2083" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

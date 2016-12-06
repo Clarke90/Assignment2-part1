@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="workoutsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="back">
+    <Key>
+      <PropertyRef Name="workout_num" />
+    </Key>
+    <Property Name="workout_num" Type="int" Nullable="false" />
+    <Property Name="workout_name" Type="varchar" MaxLength="14" Nullable="false" />
+    <Property Name="sets_num" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="intensity_num" Type="int" Nullable="false" />
+    <Property Name="addeddate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="user_num" />
+    </Key>
+    <Property Name="user_num" Type="int" Nullable="false" />
+    <Property Name="birth_date" Type="date" Nullable="false" />
+    <Property Name="first_name" Type="varchar" MaxLength="14" Nullable="false" />
+    <Property Name="last_name" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="starting_date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="workoutsModelStoreContainer">
+    <EntitySet Name="back" EntityType="Self.back" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -10,6 +10,16 @@
     <Property Name="intensity_num" Type="int" Nullable="false" />
     <Property Name="addeddate" Type="datetime" />
   </EntityType>
+  <EntityType Name="chest">
+    <Key>
+      <PropertyRef Name="workout_num" />
+    </Key>
+    <Property Name="workout_num" Type="int" Nullable="false" />
+    <Property Name="workout_name" Type="varchar" MaxLength="14" Nullable="false" />
+    <Property Name="sets_num" Type="char" MaxLength="14" Nullable="false" />
+    <Property Name="intensity_num" Type="char" MaxLength="16" Nullable="false" />
+    <Property Name="link_url" Type="varchar" MaxLength="2083" Nullable="false" />
+  </EntityType>
   <EntityType Name="users">
     <Key>
       <PropertyRef Name="user_num" />
@@ -22,6 +32,7 @@
   </EntityType>
   <EntityContainer Name="workoutsModelStoreContainer">
     <EntitySet Name="back" EntityType="Self.back" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="chest" EntityType="Self.chest" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>
