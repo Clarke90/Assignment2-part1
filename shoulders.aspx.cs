@@ -20,6 +20,7 @@ namespace workoutplanner
             var conn = new workoutsEntities();
             //linq query 
             var chests = from c in conn.chests
+                         where c.workout_type.Contains("shoulders")
                          select c;
             //display the result in the gridview
             grdShoulders.DataSource = chests.ToList();

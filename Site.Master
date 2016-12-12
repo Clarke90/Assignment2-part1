@@ -30,7 +30,7 @@
                       <li><a href="legs.aspx">Legs</a></li> 
                       <li><a href="arms.aspx">Arms</a></li> 
                       <li><a href="shoulders.aspx">Shoulders</a></li> 
-                      <li><a href="#">Core</a></li>
+                      <li><a href="abs.axpx">Core</a></li>
                       <li><a href="logout.aspx">Logout</a></li>
                  </asp:PlaceHolder>
                  <asp:PlaceHolder ID="plhPublic" runat="server">

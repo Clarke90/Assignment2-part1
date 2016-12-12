@@ -2,7 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
- <h1>Shoulder Workouts</h1>
+    <div class="jumbotron">
+        <h1>Shoulder Workouts</h1>
+    </div>
     <a href="workout-details.aspx">Add a Workout</a>
     <asp:GridView ID="grdShoulders" runat="server" CssClass="table table-striped" AutoGenerateColumns="false"
         DataKeyNames="workout_num" onRowDeleting="grdChest_RowDeleting">
