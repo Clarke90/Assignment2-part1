@@ -7,6 +7,15 @@
       <Diagram DiagramId="1869813118c849579b961c2c7f27e4a9" Name="Diagram1">
         <EntityTypeShape EntityType="workoutsModel.back" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="workoutsModel.user" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="workoutsModel.chest" Width="1.5" PointX="4.875" PointY="2.125" />
+        <EntityTypeShape EntityType="workoutsModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="workoutsModel.AspNetRole" Width="1.5" PointX="0.75" PointY="7.5" />
+        <EntityTypeShape EntityType="workoutsModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="6" />
+        <EntityTypeShape EntityType="workoutsModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="8.75" />
+        <EntityTypeShape EntityType="workoutsModel.AspNetUser" Width="1.5" PointX="3" PointY="6.375" />
+        <AssociationConnector Association="workoutsModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="workoutsModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="workoutsModel.AspNetUserRoles" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

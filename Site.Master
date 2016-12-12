@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Chads Workout Planner</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <!-- Latest compiled and minified CSS -->
@@ -20,16 +20,16 @@
     <form  runat="server">
         <nav class="navbar navbar-inverse">
             <div class="navbar-header">
-              <a class="navbar-brand" href="default.aspx">WebSiteName</a>
+              <a class="navbar-brand" href="default.aspx">Workout Planner</a>
             </div>
             <ul class="nav navbar-nav">
                 <asp:PlaceHolder ID="plhPrivate" runat="server" Visible="false">
-                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="default.aspx">Home</a></li>
                       <li><a href="back.aspx">Back</a></li>
                       <li><a href="chest.aspx">Chest</a></li> 
-                      <li><a href="#">Legs</a></li> 
-                      <li><a href="#">Biceps</a></li> 
-                      <li><a href="#">Triceps</a></li> 
+                      <li><a href="legs.aspx">Legs</a></li> 
+                      <li><a href="arms.aspx">Arms</a></li> 
+                      <li><a href="shoulders.aspx">Shoulders</a></li> 
                       <li><a href="#">Core</a></li>
                       <li><a href="logout.aspx">Logout</a></li>
                  </asp:PlaceHolder>
@@ -47,7 +47,10 @@
     </form>
     <!--js --> 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <!-- Latest compiled and minified JavaScript -->
+     <!-- custom js --> 
+    <script src="js/scripts.js"></script>
+     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 </html>

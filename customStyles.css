@@ -10,12 +10,16 @@ position:bottom;
 background-size:cover; 
 min-height:400px;
 margin-top:-2%;
+background-image: url(images/weights.jpg);
 }
 .cta {
 background-color:#222;
 padding: 2% 0 2% 0; 
 margin-top:-2.3%;
 border-top:4px solid red;
+}
+.navbar {
+    margin-top:2%;
 }
 #intro {
 width:70%;
@@ -38,4 +42,10 @@ margin:5% 0 5% 0;
 }
 .modal-content {
 padding:3%;
+}
+th {
+padding:10px;
+}
+td, td {
+padding: 10px;
 }

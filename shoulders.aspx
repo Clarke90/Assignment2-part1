@@ -1,9 +1,10 @@
-﻿<%@ Page Title="back" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="back.aspx.cs" Inherits="workoutplanner.back" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="shoulders.aspx.cs" Inherits="workoutplanner.shoulders" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>Back Workouts </h1>
-    <asp:GridView ID="grdBack" runat="server" CssClass="table table-striped" AutoGenerateColumns="false"
+ <h1>Shoulder Workouts</h1>
+    <a href="workout-details.aspx">Add a Workout</a>
+    <asp:GridView ID="grdShoulders" runat="server" CssClass="table table-striped" AutoGenerateColumns="false"
         DataKeyNames="workout_num" onRowDeleting="grdChest_RowDeleting">
         <Columns>
             <asp:BoundField DataField="workout_num" headertext="Workout Num " />

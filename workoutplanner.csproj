@@ -124,13 +124,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="abs.aspx" />
+    <Content Include="arms.aspx" />
     <Content Include="back.aspx" />
     <Content Include="chest.aspx" />
     <Content Include="customStyles.css" />
     <Content Include="images\cardiogram.png" />
+    <Content Include="images\chuck.jpg" />
     <Content Include="images\dumbbell.png" />
     <Content Include="images\juice.png" />
     <Content Include="images\weights.jpg" />
+    <Content Include="js\scripts.js" />
+    <Content Include="legs.aspx" />
     <Content Include="login.aspx" />
     <Content Include="logout.aspx" />
     <Content Include="Model1.Context.tt">
@@ -144,8 +149,11 @@
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <Content Include="packages.config" />
+    <Content Include="page-not-found.aspx" />
     <Content Include="register.aspx" />
+    <Content Include="shoulders.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="workout-details.aspx" />
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>
@@ -169,6 +177,32 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="abs.aspx.cs">
+      <DependentUpon>abs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="abs.aspx.designer.cs">
+      <DependentUpon>abs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arms.aspx.cs">
+      <DependentUpon>arms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arms.aspx.designer.cs">
+      <DependentUpon>arms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetRole.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUser.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaim.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogin.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="back.aspx.cs">
       <DependentUpon>back.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -191,12 +225,22 @@
       <DependentUpon>Model1.tt</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="legs.aspx.cs">
+      <DependentUpon>legs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="legs.aspx.designer.cs">
+      <DependentUpon>legs.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -227,6 +271,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="page-not-found.aspx.cs">
+      <DependentUpon>page-not-found.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page-not-found.aspx.designer.cs">
+      <DependentUpon>page-not-found.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="register.aspx.cs">
       <DependentUpon>register.aspx</DependentUpon>
@@ -234,6 +285,13 @@
     </Compile>
     <Compile Include="register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shoulders.aspx.cs">
+      <DependentUpon>shoulders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shoulders.aspx.designer.cs">
+      <DependentUpon>shoulders.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -245,6 +303,13 @@
     <Compile Include="Startup.cs" />
     <Compile Include="user.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="workout-details.aspx.cs">
+      <DependentUpon>workout-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="workout-details.aspx.designer.cs">
+      <DependentUpon>workout-details.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

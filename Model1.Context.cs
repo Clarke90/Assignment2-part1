@@ -28,5 +28,10 @@ namespace workoutplanner
         public DbSet<back> backs { get; set; }
         public DbSet<user> users { get; set; }
         public DbSet<chest> chests { get; set; }
+        public DbSet<C__MigrationHistory> C__MigrationHistory { get; set; }
+        public DbSet<AspNetRole> AspNetRoles { get; set; }
+        public DbSet<AspNetUserClaim> AspNetUserClaims { get; set; }
+        public DbSet<AspNetUserLogin> AspNetUserLogins { get; set; }
+        public DbSet<AspNetUser> AspNetUsers { get; set; }
     }
 }

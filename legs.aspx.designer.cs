@@ -10,15 +10,15 @@
 namespace workoutplanner {
     
     
-    public partial class back {
+    public partial class legs {
         
         /// <summary>
-        /// grdBack control.
+        /// grdLegs control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdBack;
+        protected global::System.Web.UI.WebControls.GridView grdLegs;
     }
 }
